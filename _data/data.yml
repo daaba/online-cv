@@ -3,262 +3,235 @@
 #
 
 sidebar:
-    position: right # position of the sidebar : left or right
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Olivier Abad
+    tagline: Ingénieur DevSecOps
+    avatar: devsecops.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
-    citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    email: abad.olivier@gmail.com
+    phone: 0608922771
+    timezone: CET (Paris, France)
+    citizenship: 54 ans
+      #website: blog.webjeda.com #do not add http://
+      #linkedin: alandoe
+      #xing: alandoe
+      #github: sharu725
+      #telegram: # add your nickname without '@' sign
+      #gitlab:
+      #bitbucket:
+      #twitter: '@webjeda'
+      #stack-overflow: # Number/Username, e.g. 123456/alandoe
+      #codewars:
+      #goodreads: # Number-Username, e.g. 123456-alandoe
+      #pdf: http://www.africau.edu/images/default/sample.pdf
 
     languages:
-      title: Languages
+      title: Langues
       info:
-        - idiom: English
-          level: Native
+        - idiom: Français
+          level: Langue maternelle
 
-        - idiom: French
-          level: Professional
-
-        - idiom: Spanish
-          level: Professional
+        - idiom: Anglais
+          level: Courant
 
     interests:
-      title: Interests
+      title: Centres d'intérêts
       info:
-        - item: Climbing
-          link:
-
-        - item: Snowboarding
-          link:
-
-        - item: Cooking
-          link:
+        - item: Musique
+        - item: Cinéma
 
 career-profile:
-    title: Career Profile
+    title: Profil
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Ingénieur DevSecOps senior
+
+certifications:
+  title: Certifications
+  list:
+    - name: AWS Certified Solutions Architect – Associate
+      start: 07/2019
+      end: 07/2022
+
 education:
-    title: Education
+    title: Formation
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
+      - degree: Diplôme d'ingénieur
+        university: Telecom SudParis (Institut National des Télécommunications)
+        time: 1990 - 1993
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          Option « Programmation avancée et architectures parallèles »
+
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Ingénieur DevSecOps
+        time: 2019 - Present
+        company: EDF, Montrouge - Projet SWITCH
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+          Membre de la system team du programme Switch, avec un rôle d'ingénieur DevSecOps.
+          Développement et maintenance de l'ensemble de l'outillage DevOps (CI, CD) à destination des trains
+          du programme Switch.
+          Support aux équipes.
+            - **Envir. Technique** : git, Jenkins, ansible, RedHat Linux, GitLab, SonarQube, gradle, 3DEXPERIENCE, Nexus, Prometheus, Grafana
+      - role: Architecte
+        time: 10/2018 - 01/2019
+        company: GRDF, Paris - Projet TICC
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+          Gestion de la télérelève des compteurs Gazpar.
+          Analyse des problèmes rencontrés sur l'application TICC et proposition de solutions
+            - **Envir. Technique** : Solaris, Weblogic, Oracle utilities MDM, Dynatrace
+      - role: Responsable technique
+        time: 12/2016 - 10/2018
+        company: Enedis, Nanterre - Projet SIAE
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-
-certifications:
-      title: Certifications
-      list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
-          details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur 
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh. 
-            Aenean fermentum, felis vulputate suscipit accumsan, 
-            sem enim bibendum augue, sed convallis arcu lacus at dui. 
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor. 
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim. 
-            Praesent venenatis erat non augue suscipit consectetur. 
-            
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus 
-            fringilla vel. Ut euismod, sem sed vulputate venenatis, 
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at. 
-        - name: Git learning
-          start: 2019
-          end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
-          details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur 
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh. 
-            Aenean fermentum, felis vulputate suscipit accumsan, 
-            sem enim bibendum augue, sed convallis arcu lacus at dui. 
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor. 
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim. 
-            Praesent venenatis erat non augue suscipit consectetur. 
-        
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+          Système de gestion du rachat des pertes d'énergie.
+          Encadrement de l'équipe de développement.
+          Gestion des procédures de déploiement en production.
+          Gestion de la plate-forme d'intégration continue.
+            - **Envir. Technique** : AngularJS, Apache, Oracle, Docker, Git, GitLab, Java, Jenkins, MyBatis, OpenStack, SonarQube
+      - role: Développeur
+        time: 07/2016 - 11/2016
+        company: EDF, Saint-Denis - Projet GESSIK
+        details: |
+          Système de gestion du combustible nucléaire.
+          Finalisation des développements de la partie "Compta" de l'application
+            - **Envir. Technique** : Subversion, Artifactory, Oracle, DHTMLX, Java, Jenkins, JPA, WebLogic
+      - role: Responsable technique
+        time: 10/2012 - 06/2016
+        company: RTE, Courbevoie - Projet SACIS
+        details: |
+          Système de gestion des échanges de messages et commandes de sauvegarde du réseau de transport électrique.
+          Supervision technique des équipes de développement.
+          Prise en charge du développement de certaines parties (génération automatique de l'application Panorama E²).
+          Responsable de la gestion de versions (subversion).
+          Mise en place de la PKI utilisant EJBCA.
+            - **Envir. Technique** : SCADA (Panorama E²), AX-S4 ICCP, OPC UA, TASE.2, Subversion, C#, Debian, Java, MySQL
+      - role: Responsable technique
+        time: 01/2003 - 06/2016
+        company: RTE, Courbevoie - Projet MCO Téléconduite
+        details: |
+          Téléconduite du réseau de transport.
+          Rôle transverse sur l'ensemble des applications de la téléconduite
+            - tests de performance de la Station Réseau (SR)
+            - chiffrage, spécification et conception d'évolutions pour les application SR, PEXI (SCADA des Groupements de Postes) et SYCOET (Configurateur du PEXI)
+            - assistance technique pour le portage du Centre d'Administration ARTERE (CAR) sur PC sous Linux
+            - rédaction de la proposition technique pour le portage du PEXI sur PC.
+            - **Envir. Technique** : C, C++, AIX, HP-UX, Red Hat Enterprise Linux, clearcase, python
+      - role: Responsable technique
+        time: 10/2011 - 05/2012
+        company: Électricité de Strasbourg - Passerelle d'échanges TASE.2
+        details: |
+          Réalisation d'une passerelle permettant d'échanger des télé-informations entre ESR et RTE, via le
+          protocole TASE.2. L'interface interne chez ESR utilise OPC DA.
+            - **Envir. Technique** : AX-S4 ICCP (SISCO), TASE.2, OPC-DA
+      - role: Architecte
+        time: 01/2009 - 12/2010
+        company: RTE, Saint-Denis - Projet MCO Téléconduite
+        details: |
+          Coordination technique du MCO Téléconduite. Traitement des demandes (Evolutions, Anomalies,
+          Informations, Intervention) sur l'application SEBE dans le cadre du MCO Outils
+          Dispatching. Élaboration des modules de formations ARTERE et enseignement des cours dans le cadre du
+          projet de montée en compétence ARTERE.
+            - **Envir. Technique** : C, C++, Linux, TCP/IP, Wireshark
+      - role: Responsable technique
+        time: 09/2005 - 05/2006
+        company: RTE, Saint-Denis - Projet IFA 2000
+        details: |
+          Renouvellement du contrôle commande de la liaison France Angleterre.
+          Encadrement de l'équipe. Développement de la passerelle OPC-DA vers les équipements de commande des bipôles.
+            - **Envir. Technique** : OPC-DA, C#, Panorama E²
+      - role: Architecte
+        time: 01/2003 - 03/2003
+        company: RTE, Saint-Denis - Projet Téléconduite
+        details: |
+          Étude de sécurité du réseau de téléconduite.
+      - role: Développeur
+        time: 01/2002 - 12/2002
+        company: RTE, Saint-Denis - Projet Téléconduite
+        details: |
+          MCO des applications PEXI et SYCOET. Étude de portage du PEXI sur PC sous Linux.
+            - **Envir. Technique** : C, C++, AIX, HP-UX, Red Hat Enterprise Linux, Clearcase
+      - role: Développeur
+        time: 09/2001 - 01/2002
+        company: RTE, Saint-Denis - Projet Téléconduite
+        details: |
+          Évolutions de l'application PEXI. Amélioration des fonctions temps différé « magnétoscope » et « archivage ».
+            - **Envir. Technique** : C, C++, AIX, HP-UX, Clearcase
+      - role: Développeur
+        time: 08/2001 - 09/2001
+        company: RTE, Saint-Denis - Projet Téléconduite
+        details: |
+          Portage de l'application SYCOET sous Linux. Portage des fonctions de communication X.25 de l'application.
+            - **Envir. Technique** : C, C++, Red Hat Enterprise Linux, Clearcase, X.25
+      - role: Développeur
+        time: 01/2000 - 08/2001
+        company: RTE, Saint-Denis - Projet Téléconduite
+        details: |
+          Conception du portage de l'application CACQN de Bull DPX/2 vers Escala, et du remplacement de la liaison DR11 DPX/2 - SOLAR par un PC passerelle. Validation, recette et site pilote.
+            - **Envir. Technique** : C, AIX, Linux, Clearcase, Python, GTK+
+      - role: Développeur
+        time: 10/1998 - 01/2000
+        company: RTE, Saint-Denis - Projet Téléconduite
+        details: |
+          Participer au maintien en conditions opérationnelles de l'application CACQN. Étude de performance d'une liaison SOLAR - DPX/2 basée sur un PC passerelle.
+            - **Envir. Technique** : C, Bull DPX/2, Clearcase
+      - role: Développeur
+        time: 08/1997 - 10/1998
+        company: RTE, Saint-Denis - Projet Téléconduite
+        details: |
+          Réalisation du portage TCP/IP du protocole ARTERE. Responsable gestion de configuration. Validation, recette et site pilote.
+            - **Envir. Technique** : C, AIX, HP-UX, OSI, TCP/IP, Clearcase
+      - role: Développeur
+        time: 04/1997 - 08/1997
+        company: RTE, Saint-Denis - Projet Téléconduite
+        details: |
+          Étude de performances TCP/IP en vue d'ARTERE V3. Comparaison avec OSI.
+            - **Envir. Technique** : OSI, TCP/IP, X.25
+      - role: Administrateur système
+        time: 11/1994 - 04/1997
+        company: RTE, Saint-Denis - Projet Téléconduite
+        details: |
+          Support aux équipes de développement. Administration système UNIX. Mise en service et maintenance des matériels et logiciels.
+          Développement de l'outillage (scripts shell) d'installation des systèmes Unix.
+          Déploiement. Mise en service d'une passerelle d'accès internet sous Debian Linux pour le réseau du projet,
+          équipée d'un firewall, d'une messagerie SMTP, d'un serveur WEB et d'un serveur NNTP (news).
+            - **Envir. Technique** : AIX, HP-UX, Linux, scripts shell, TCP/IP, Firewall
+      - role: Développeur
+        time: 09/1993 - 08/1994
+        company: Centre d'Études et de Développements Informatiques du Matériel de l'Armée de Terre, Versailles - Service militaire
+        details: |
+          Administration système UNIX et développement d'une application d'administration de réseaux TCP/IP en C sous X11/MOTIF.
+            - **Envir. Technique** : C, X11, Motif, Siemens RM400
 
 oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    title: Contributions Open Source
     contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: Wireshark
+        link: "https://www.wireshark.org/"
+        tagline: "Wireshark est le premier analyseur de protocole réseau au monde"
 
 skills:
-    title: Skills &amp; Proficiency
+    title: Compétences
 
     toolset:
-      - name: Python & Django
+      - name: Git
         level: 98%
 
-      - name: Javascript & jQuery
-        level: 98%
+      - name: Jenkins
+        level: 90%
 
-      - name: Angular
-        level: 98%
+      - name: Ansible
+        level: 80%
 
-      - name: HTML5 & CSS
-        level: 95%
+      - name: Linux
+        level: 90%
 
-      - name: Ruby on Rails
-        level: 85%
+      - name: Prometheus
+        level: 80%
 
       - name: Sketch & Photoshop
         level: 60%
-
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
