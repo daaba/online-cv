@@ -47,7 +47,7 @@ sidebar:
 career-profile:
     title: Profil
     summary: |
-      Ingénieur DevSecOps senior
+      Après de nombreuses années passées en tant que dévelopeur, puis architecte et responsable technique, j'ai décidé de changer de voie pour devenir ingénieur DevSecOps.
 
 certifications:
   title: Certifications
@@ -55,6 +55,8 @@ certifications:
     - name: AWS Certified Solutions Architect – Associate
       start: 07/2019
       end: 07/2022
+    - name: SAFe Practitionner
+      start: 06/2019
 
 education:
     title: Formation
@@ -233,5 +235,5 @@ skills:
       - name: Prometheus
         level: 80%
 
-      - name: Sketch & Photoshop
+      - name: SAFe
         level: 60%
